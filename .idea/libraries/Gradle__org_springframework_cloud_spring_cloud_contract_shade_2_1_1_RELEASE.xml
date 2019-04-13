@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-contract-shade:2.1.1.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-contract-shade/2.1.1.RELEASE/609cae707cc6e6358e748d5d865da1fadadeac5e/spring-cloud-contract-shade-2.1.1.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-contract-shade/2.1.1.RELEASE/fb01e3c5a0271bac506edbd267bb0aa8a90ac19d/spring-cloud-contract-shade-2.1.1.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

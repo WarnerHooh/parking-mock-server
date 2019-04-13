@@ -1,0 +1,27 @@
+request:
+  method: POST
+  url: /tickets
+  body:
+    licensePlateId: "111"
+    parkingLotId: 1
+  headers:
+    Content-Type: application/json
+  matchers:
+    body:
+      - path: $.licensePlateId
+        type: by_regex
+        value: "[\\w|-]*"
+      - path: $.parkingLotId
+        type: by_regex
+        value: "[\\d]*"
+response:
+  status: 200
+  body:
+    ticketId: "aa0f2713-72f0-4985-9dce-7394703f8b8d"
+  headers:
+    Content-Type: application/json;charset=UTF-8
+  matchers:
+    body:
+      - path: $.ticketId
+        type: by_regex
+        value: "[\\w|-]*"

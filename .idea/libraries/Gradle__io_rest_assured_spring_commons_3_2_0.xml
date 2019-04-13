@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.rest-assured:spring-commons:3.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/spring-commons/3.2.0/ce88df35cfd125d725c92f309b805cd828a32376/spring-commons-3.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/spring-commons/3.2.0/76df26a3142d67dd8a5b3b49d09ed0e988bb936e/spring-commons-3.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

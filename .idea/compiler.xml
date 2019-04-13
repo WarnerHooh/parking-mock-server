@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="dmall.com.parking-mock-server.main" target="1.8" />
+      <module name="dmall.com.parking-mock-server.test" target="1.8" />
+      <module name="parking-mock-server.main" target="11" />
+      <module name="parking-mock-server.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
