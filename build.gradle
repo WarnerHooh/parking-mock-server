@@ -25,6 +25,8 @@ group = 'dmall.com'
 version = "0.0.1-SNAPSHOT.$System.env.BUILD_NUMBER"
 sourceCompatibility = 1.8
 
+printf version
+
 repositories {
     maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
     mavenLocal()
