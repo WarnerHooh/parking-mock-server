@@ -22,7 +22,7 @@ apply plugin: 'io.spring.dependency-management'
 apply plugin: 'spring-cloud-contract'
 
 group = 'dmall.com'
-version = '0.0.1-SNAPSHOT'
+version = "0.0.1-SNAPSHOT.$System.env.BUILD_NUMBER"
 sourceCompatibility = 1.8
 
 repositories {
