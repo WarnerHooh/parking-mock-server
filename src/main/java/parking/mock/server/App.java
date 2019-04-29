@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.contract.wiremock.AutoConfigureWireMock;
 
 @SpringBootApplication
-@AutoConfigureWireMock
+//@AutoConfigureWireMock
 public class App {
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
