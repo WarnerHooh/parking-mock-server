@@ -29,6 +29,7 @@ version = "2018.2"
 project {
 
     buildType(Build)
+    buildType(Test)
 }
 
 object Build : BuildType({
@@ -43,6 +44,28 @@ object Build : BuildType({
     steps {
         gradle {
             tasks = "clean build"
+            buildFile = ""
+        }
+    }
+
+    triggers {
+        vcs {
+            branchFilter = ""
+        }
+    }
+})
+
+
+object Test : BuildType({
+    name = "Test"
+
+    vcs {
+        root(DslContext.settingsRoot)
+    }
+
+    steps {
+        gradle {
+            tasks = "clean integrationTest"
             buildFile = ""
         }
     }
