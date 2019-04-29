@@ -2,38 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a13e3d20-577a-444a-a01d-85433c9c0483" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/settings.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/config/BaseConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/config/GithubConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/config/GoogleConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/config/SSLClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/controller/RemoteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/logger/FeignLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/BaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/model/ParkingBoy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/model/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/model/Trade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/remote/GithubClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/remote/GoogleClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/repository/ParkingBoyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/response/Repo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/service/ParkingBoyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/service/RetryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parking/mock/server/controller/RemoteControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parking/mock/server/service/ParkingBoyServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/dmall.com.parking-mock-server.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/dmall.com.parking-mock-server.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/dmall.com.parking-mock-server.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/dmall.com.parking-mock-server.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parking/mock/server/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parking/mock/server/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/parking/mock/server/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parking/mock/server/service/ParkingBoyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/service/ParkingBoyService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -84,6 +60,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="parking-mock-server" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="parking-mock-server" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
@@ -110,26 +91,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
+            <state relative-caret-position="112">
+              <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/Product.java">
+        <entry file="file://$PROJECT_DIR$/src/integrationTest/java/parking/mock/server/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/service/RetryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="203">
+              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,10 +110,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/Trade.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/parking/mock/server/controller/RemoteControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="26" />
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/ProductMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            <state relative-caret-position="390">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,48 +142,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/parking/mock/server/service/ParkingBoyServiceTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/settings.kts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="383">
+              <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#0#188#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/Shop.java">
+        <entry file="file://$PROJECT_DIR$/.teamcity/settings.kts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="390">
+              <caret line="26" selection-end-line="55" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://036bde99-24df-43f8-8692-e67b38e90d6f/schema/parkinglot/table/parking_boy">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/service/HelloService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#188#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -244,6 +193,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -253,7 +203,6 @@
         <option value="$PROJECT_DIR$/api/should_create_a_ticket.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/parking/mock/server/AppTest.java" />
-        <option value="$PROJECT_DIR$/settings.kts" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/remote/GithubService.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/config/GithubService.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/remote/GithubClient.java" />
@@ -274,14 +223,20 @@
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/Shop.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/service/HelloService.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/Trade.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/repository/ParkingBoyRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/ParkingBoy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/service/ParkingBoyService.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/test/java/parking/mock/server/service/ParkingBoyServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/ProductMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-integration.yml" />
+        <option value="$PROJECT_DIR$/src/integrationTest/java/server/service/ParkingBoyServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/integrationTest/java/server/controller/RemoteControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/integrationTest/java/AppTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/service/ParkingBoyService.java" />
+        <option value="$PROJECT_DIR$/src/integrationTest/java/parking/mock/server/AppTest.java" />
+        <option value="$PROJECT_DIR$/settings.kts" />
       </list>
     </option>
   </component>
@@ -306,12 +261,28 @@
             <path>
               <item name="parking-mock-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="parking-mock-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parking-mock-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="parking-mock-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="integrationTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="parking-mock-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parking-mock-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="integrationTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parking-mock-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parking-mock-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="integrationTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parking-mock-server" type="b2602c69:ProjectViewProjectNode" />
@@ -333,24 +304,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parking-mock-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parking-mock-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parking-mock-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parking-mock-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parking-mock-server" type="b2602c69:ProjectViewProjectNode" />
@@ -389,15 +342,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="parking-mock-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parking-mock-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -414,7 +358,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556529533263" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556532739352" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -436,7 +380,12 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/integrationTest/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="parking.mock.server.remote" />
       <recent name="parking.mock.server.config" />
     </key>
@@ -456,7 +405,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParkingBoyServiceTest">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="parking-mock-server [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -495,16 +444,16 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ParkingBoyServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dmall.com.parking-mock-server.test" />
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dmall.com.parking-mock-server.integrationTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parking.mock.server.service.*" />
+          <option name="PATTERN" value="parking.mock.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="parking.mock.server.service" />
-      <option name="MAIN_CLASS_NAME" value="parking.mock.server.service.ParkingBoyServiceTest" />
+      <option name="PACKAGE_NAME" value="parking.mock.server" />
+      <option name="MAIN_CLASS_NAME" value="parking.mock.server.AppTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -550,11 +499,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.ParkingBoyServiceTest" />
         <item itemvalue="Gradle.parking-mock-server [build]" />
         <item itemvalue="Gradle.parking-mock-server [clean]" />
         <item itemvalue="JUnit.ParkingBoyServiceTest.should_save_parking_boy" />
-        <item itemvalue="JUnit.ParkingBoyServiceTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -578,7 +527,7 @@
       <workItem from="1556097748335" duration="4774000" />
       <workItem from="1556166449554" duration="23662000" />
       <workItem from="1556499853056" duration="629000" />
-      <workItem from="1556501785646" duration="7271000" />
+      <workItem from="1556501785646" duration="9807000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1555911889853</created>
@@ -601,16 +550,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555920343084</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="more than a mock server">
+      <created>1556530059458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556530059458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParkingBoyServiceTest_should_save_parking_boy - 2019.04.29 at 10h 41m 36s.xml">
-      <configuration name="ParkingBoyServiceTest.should_save_parking_boy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingBoyServiceTest_should_save_parking_boy - 2019.04.29 at 10h 44m 13s.xml">
-      <configuration name="ParkingBoyServiceTest.should_save_parking_boy" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ParkingBoyServiceTest_should_save_parking_boy - 2019.04.29 at 10h 44m 37s.xml">
       <configuration name="ParkingBoyServiceTest.should_save_parking_boy" configurationId="JUnit" />
     </history-entry>
@@ -635,9 +585,15 @@
     <history-entry file="ParkingBoyServiceTest - 2019.04.29 at 13h 48m 04s.xml">
       <configuration name="ParkingBoyServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2019.04.29 at 18h 11m 23s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.04.29 at 18h 11m 44s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69014000" />
+    <option name="totallyTimeSpent" value="71550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -654,14 +610,14 @@
       <window_info anchor="bottom" id="Database Console" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42459893" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42459893" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46203208" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3304813" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3304813" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
@@ -687,7 +643,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="build number" />
-    <option name="LAST_COMMIT_MESSAGE" value="build number" />
+    <MESSAGE value="more than a mock server" />
+    <option name="LAST_COMMIT_MESSAGE" value="more than a mock server" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -709,62 +666,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.kts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.4.RELEASE/fc28861fbd06b8aa6d151f8810a7748a86f1f155/spring-boot-2.1.4.RELEASE-sources.jar!/org/springframework/boot/context/logging/LoggingApplicationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.openfeign/feign-slf4j/10.2.0/d5ae06a41d039fbacc134a6dc3e62fe1103f6566/feign-slf4j-10.2.0-sources.jar!/feign/slf4j/Slf4jLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.openfeign/feign-core/10.2.0/bdcaa107caf1a06918857fe6d4562f1e9aafe355/feign-core-10.2.0-sources.jar!/feign/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="152" column="22" selection-start-line="152" selection-start-column="22" selection-end-line="152" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/a0ad4e203304ccab7e01266fa814115850edb8a9/jackson-annotations-2.9.0-sources.jar!/com/fasterxml/jackson/annotation/JsonProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/javax/net/ssl/SSLSocketFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1797">
@@ -936,16 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/parking/mock/server/controller/RemoteControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/RuntimeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1038,16 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/service/ParkingBoyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/repository/ParkingBoyRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1065,24 +946,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/parking/mock/server/service/ParkingBoyServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#530#531#0" expanded="true" />
@@ -1124,14 +991,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1140,10 +1007,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/ProductMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.teamcity/settings.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-end-line="55" />
+          <folding>
+            <element signature="e#0#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integrationTest/java/server/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integrationTest/java/server/service/ParkingBoyServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integrationTest/java/server/controller/RemoteControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/parking/mock/server/controller/RemoteControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/service/ParkingBoyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-integration.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integrationTest/java/parking/mock/server/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#188#0" expanded="true" />
           </folding>
         </state>
       </provider>

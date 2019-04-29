@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dmall.com.parking-mock-server.iml" filepath="$PROJECT_DIR$/.idea/modules/dmall.com.parking-mock-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dmall.com.parking-mock-server.integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/dmall.com.parking-mock-server.integrationTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dmall.com.parking-mock-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/dmall.com.parking-mock-server.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dmall.com.parking-mock-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/dmall.com.parking-mock-server.test.iml" />
     </modules>

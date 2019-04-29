@@ -4,6 +4,8 @@ import org.springframework.stereotype.Service;
 import parking.mock.server.model.ParkingBoy;
 import parking.mock.server.repository.ParkingBoyRepository;
 
+import java.util.Optional;
+
 @Service
 public class ParkingBoyService {
     private final ParkingBoyRepository parkingBoyRepository;
@@ -17,5 +19,9 @@ public class ParkingBoyService {
                 .name(name)
                 .build();
         parkingBoyRepository.save(parkingBoy);
+    }
+
+    public Optional<ParkingBoy> getParkingBoy(final Long id) {
+        return parkingBoyRepository.findById(id);
     }
 }

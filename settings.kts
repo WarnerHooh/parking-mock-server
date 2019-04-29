@@ -1,34 +1,56 @@
-object Project : Project({
-    uuid = "my_project_id" // uuid should be some constant, never changing string; it is important for preserving history, new id means new entity with new history
-    id = "ExampleOfDSL"
-    parentId = "_Root" // id of the parent project
-    name = "Example of DSL"
+import jetbrains.buildServer.configs.kotlin.v2018_2.*
+import jetbrains.buildServer.configs.kotlin.v2018_2.buildSteps.gradle
+import jetbrains.buildServer.configs.kotlin.v2018_2.triggers.vcs
 
-    val vcsRoot = GitVcsRoot({
-        uuid = "my_vcs_root_id"
-        id = "ExampleOfDSL_VcsRoot"
-        name = "Example of DSL VCS Root"
-        url = "<url to my git repository>"
-    })
-    buildType {
-        uuid = "my_build_type_id"
-        id = "ExampleOfDSL_Build"
-        name = "Build"
-        buildNumberPattern = "%build.counter%"
+version = "2018.2"
 
-        +:build/libs/* => target
+project {
 
+    buildType(Build)
+    builType(Test)
+}
+
+object Build : BuildType({
+    name = "Build"
+
+    artifactRules = "+:build/libs/* => target"
+
+    vcs {
+        root(DslContext.settingsRoot)
+    }
+
+    steps {
+        gradle {
+            tasks = "clean build"
+            buildFile = ""
+        }
+    }
+
+    triggers {
         vcs {
-            root(vcsRoot) // thanks to Kotlin, here we can have static reference to project VCS root
+            branchFilter = ""
         }
-        steps {
-            gradle {
-                name = "clean & build"
-                tasks = "clean build"
-            }
+    }
+})
+
+
+object Test : BuildType({
+    name = "Test"
+
+    vcs {
+        root(DslContext.settingsRoot)
+    }
+
+    steps {
+        gradle {
+            tasks = "clean integrationTest"
+            buildFile = ""
         }
-        requirements {
-            contains("teamcity.agent.jvm.os.name", "Linux")
+    }
+
+    triggers {
+        vcs {
+            branchFilter = ""
         }
     }
 })
