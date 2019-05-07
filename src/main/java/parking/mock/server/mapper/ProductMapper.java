@@ -9,7 +9,6 @@ import parking.mock.server.model.Trade;
 public class ProductMapper extends BaseMapper {
 
     public ProductMapper() {
-        super();
         getMapperFactory().classMap(Product.class, Trade.class)
                 .field("name", "product")
                 .byDefault()

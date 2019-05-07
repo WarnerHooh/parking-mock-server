@@ -1,10 +1,9 @@
-package parking.mock.server;
+package parking.mock.server.integration;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import parking.mock.server.model.ParkingBoy;
 import parking.mock.server.service.ParkingBoyService;
@@ -17,8 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest
 @ExtendWith(SpringExtension.class)
-@ActiveProfiles(profiles = "integration")
-class AppTest {
+class AppTest extends IntegrationTestBase {
     @Autowired
     ParkingBoyService parkingBoyService;
 
