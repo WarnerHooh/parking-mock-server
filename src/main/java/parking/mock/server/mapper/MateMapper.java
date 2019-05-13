@@ -1,7 +1,8 @@
-package parking.mock.server.model.group;
+package parking.mock.server.mapper;
 
 import org.springframework.stereotype.Service;
 import parking.mock.server.mapper.BaseMapper;
+import parking.mock.server.model.group.*;
 
 @Service
 public class MateMapper extends BaseMapper {

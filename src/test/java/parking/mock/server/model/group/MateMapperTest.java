@@ -2,6 +2,7 @@ package parking.mock.server.model.group;
 
 import org.junit.Before;
 import org.junit.Test;
+import parking.mock.server.mapper.MateMapper;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

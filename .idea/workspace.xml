@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a13e3d20-577a-444a-a01d-85433c9c0483" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/MateMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parking/mock/server/model/group/MateMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/BaseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/BaseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parking/mock/server/model/generic/ResponseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/parking/mock/server/model/generic/ResponseMapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -87,11 +86,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/BaseMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+            <state relative-caret-position="429">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/ResponseMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/parking/mock/server/model/group/MateMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/generic/PersonDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -111,19 +143,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/generic/PersonDto.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/Mate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/service/HelloService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,48 +155,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/parking/mock/server/model/generic/ResponseTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/generic/ResponseDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/parking/mock/server/model/group/MateMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/MateMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/parking/mock/server/model/generic/ResponseMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="381">
+              <caret line="192" column="37" lean-forward="true" selection-start-line="192" selection-start-column="37" selection-end-line="192" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/Mate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2040#2048#0" expanded="true" />
+                <element signature="e#3062#3070#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,20 +180,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/APerson.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -224,6 +213,8 @@
       <find>data</find>
       <find>testClassesDirs</find>
       <find>test</find>
+      <find>bootja</find>
+      <find>newObje</find>
     </findStrings>
     <dirStrings>
       <dir>$USER_HOME$/.gradle/caches/modules-2/files-2.1/ma.glasnost.orika/orika-core/1.5.1/749ecdd48f49a1e45c7891a27d95bd23b3695027/orika-core-1.5.1.jar</dir>
@@ -236,8 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/config/GithubConf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/parking/mock/server/controller/GithubControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/controller/GithubController.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/remote/GoogleClient.java" />
@@ -264,9 +253,6 @@
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/Response.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/generic/ResponseDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/generic/Response.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/generic/PersonDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/generic/Person.java" />
-        <option value="$PROJECT_DIR$/src/test/java/parking/mock/server/model/generic/ResponseTest.java" />
         <option value="$PROJECT_DIR$/api/should_create_a_ticket.yml" />
         <option value="$PROJECT_DIR$/src/integrationTest/java/parking/mock/server/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/parking/mock/server/service/ParkingBoyServiceTest.java" />
@@ -282,16 +268,21 @@
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/PersonMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/service/HelloService.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/APerson.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/BaseMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/MateMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/Mate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/parking/mock/server/model/generic/ResponseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/generic/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/parking/mock/server/model/group/MateMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/MateMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/generic/PersonDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/Mate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/ResponseMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/parking/mock/server/model/generic/ResponseMapperTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="y" value="173" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
@@ -302,6 +293,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -393,7 +385,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="group" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parking-mock-server" type="b2602c69:ProjectViewProjectNode" />
@@ -402,7 +394,8 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parking-mock-server" type="b2602c69:ProjectViewProjectNode" />
@@ -449,13 +442,22 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parking-mock-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parking-mock-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="group" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -466,7 +468,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557387452608" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557767099604" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -488,21 +490,21 @@
       <recent name="parking.mock.server.service" />
       <recent name="parking.mock.server.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="parking.mock.server.model.group" />
-      <recent name="parking.mock.server.integration" />
-      <recent name="parking.mock.server.service" />
-      <recent name="parking.mock.server.model.generic" />
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/integrationTest/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="parking.mock.server.mapper" />
+      <recent name="parking.mock.server.model.group" />
+      <recent name="parking.mock.server.integration" />
+      <recent name="parking.mock.server.service" />
+      <recent name="parking.mock.server.model.generic" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -518,78 +520,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MateMapperTest.should_map_from_person_to_mate">
-    <configuration name="MateMapperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parking.mock.server.model.group.MateMapperTest" />
+  <component name="RunManager" selected="JUnit.ResponseMapperTest.should_map_multiple_by_right">
+    <configuration name="MateMapperTest.should_map_with_multiple_fields_by_left" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dmall.com.parking-mock-server.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parking.mock.server.model.group.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MateMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dmall.com.parking-mock-server.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parking.mock.server.model.group.*" />
+          <option name="PATTERN" value="parking.mock.server.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="parking.mock.server.model.group" />
       <option name="MAIN_CLASS_NAME" value="parking.mock.server.model.group.MateMapperTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MateMapperTest.should_map_from_person_to_mate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dmall.com.parking-mock-server.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parking.mock.server.model.group.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="parking.mock.server.model.group" />
-      <option name="MAIN_CLASS_NAME" value="parking.mock.server.model.group.MateMapperTest" />
-      <option name="METHOD_NAME" value="should_map_from_person_to_mate" />
+      <option name="METHOD_NAME" value="should_map_with_multiple_fields_by_left" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MateMapperTest.should_map_with_multiple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseMapperTest.should_map_multiple_by_left" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dmall.com.parking-mock-server.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parking.mock.server.model.group.*" />
+          <option name="PATTERN" value="parking.mock.server.model.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="parking.mock.server.model.group" />
-      <option name="MAIN_CLASS_NAME" value="parking.mock.server.model.group.MateMapperTest" />
-      <option name="METHOD_NAME" value="should_map_with_multiple" />
+      <option name="PACKAGE_NAME" value="parking.mock.server.model.generic" />
+      <option name="MAIN_CLASS_NAME" value="parking.mock.server.model.generic.ResponseMapperTest" />
+      <option name="METHOD_NAME" value="should_map_multiple_by_left" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MateMapperTest.should_map_with_multiple_fields_by_right" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseMapperTest.should_map_multiple_by_right" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dmall.com.parking-mock-server.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parking.mock.server.model.group.*" />
+          <option name="PATTERN" value="parking.mock.server.model.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="parking.mock.server.model.group" />
-      <option name="MAIN_CLASS_NAME" value="parking.mock.server.model.group.MateMapperTest" />
-      <option name="METHOD_NAME" value="should_map_with_multiple_fields_by_right" />
+      <option name="PACKAGE_NAME" value="parking.mock.server.model.generic" />
+      <option name="MAIN_CLASS_NAME" value="parking.mock.server.model.generic.ResponseMapperTest" />
+      <option name="METHOD_NAME" value="should_map_multiple_by_right" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponseMapperTest.should_map_multiple_from_left" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dmall.com.parking-mock-server.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parking.mock.server.model.generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="parking.mock.server.model.generic" />
+      <option name="MAIN_CLASS_NAME" value="parking.mock.server.model.generic.ResponseMapperTest" />
+      <option name="METHOD_NAME" value="should_map_multiple_from_left" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponseMapperTest.should_same_with_previous_one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dmall.com.parking-mock-server.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parking.mock.server.model.generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="parking.mock.server.model.generic" />
+      <option name="MAIN_CLASS_NAME" value="parking.mock.server.model.generic.ResponseMapperTest" />
+      <option name="METHOD_NAME" value="should_same_with_previous_one" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -604,11 +610,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MateMapperTest.should_map_from_person_to_mate" />
-        <item itemvalue="JUnit.MateMapperTest" />
-        <item itemvalue="JUnit.MateMapperTest.should_map_with_multiple_fields_by_right" />
-        <item itemvalue="JUnit.MateMapperTest.should_map_with_multiple" />
-        <item itemvalue="Application.MateMapperTest" />
+        <item itemvalue="JUnit.ResponseMapperTest.should_map_multiple_by_right" />
+        <item itemvalue="JUnit.ResponseMapperTest.should_map_multiple_by_left" />
+        <item itemvalue="JUnit.ResponseMapperTest.should_map_multiple_from_left" />
+        <item itemvalue="JUnit.MateMapperTest.should_map_with_multiple_fields_by_left" />
+        <item itemvalue="JUnit.ResponseMapperTest.should_same_with_previous_one" />
       </list>
     </recent_temporary>
   </component>
@@ -637,7 +643,8 @@
       <workItem from="1557045984333" duration="809000" />
       <workItem from="1557104358811" duration="35000" />
       <workItem from="1557190156880" duration="6005000" />
-      <workItem from="1557241782569" duration="14115000" />
+      <workItem from="1557241782569" duration="14922000" />
+      <workItem from="1557708726738" duration="9440000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1555911889853</created>
@@ -695,49 +702,56 @@
       <option name="project" value="LOCAL" />
       <updated>1557195385684</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="multiple map">
+      <created>1557387491557</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557387491557</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MateMapperTest_should_map_with_multiple - 2019.05.09 at 09h 16m 12s.xml">
-      <configuration name="MateMapperTest.should_map_with_multiple" configurationId="JUnit" />
+    <history-entry file="ResponseMapperTest_should_map_multiple_from_left - 2019.05.14 at 00h 50m 33s.xml">
+      <configuration name="ResponseMapperTest.should_map_multiple_from_left" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MateMapperTest - 2019.05.09 at 09h 22m 29s.xml">
-      <configuration name="MateMapperTest" configurationId="JUnit" />
+    <history-entry file="MateMapperTest_should_map_with_multiple_fields_by_left - 2019.05.14 at 00h 51m 46s.xml">
+      <configuration name="MateMapperTest.should_map_with_multiple_fields_by_left" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MateMapperTest_should_map_with_multiple_fields_by_right - 2019.05.09 at 09h 23m 55s.xml">
-      <configuration name="MateMapperTest.should_map_with_multiple_fields_by_right" configurationId="JUnit" />
+    <history-entry file="MateMapperTest_should_map_with_multiple_fields_by_left - 2019.05.14 at 00h 53m 38s.xml">
+      <configuration name="MateMapperTest.should_map_with_multiple_fields_by_left" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MateMapperTest_should_map_with_multiple_fields_by_right - 2019.05.09 at 09h 29m 32s.xml">
-      <configuration name="MateMapperTest.should_map_with_multiple_fields_by_right" configurationId="JUnit" />
+    <history-entry file="ResponseMapperTest_should_map_multiple_from_left - 2019.05.14 at 00h 55m 27s.xml">
+      <configuration name="ResponseMapperTest.should_map_multiple_from_left" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MateMapperTest_should_map_with_multiple_fields_by_right - 2019.05.09 at 09h 39m 43s.xml">
-      <configuration name="MateMapperTest.should_map_with_multiple_fields_by_right" configurationId="JUnit" />
+    <history-entry file="ResponseMapperTest_should_map_multiple_from_left - 2019.05.14 at 00h 57m 11s.xml">
+      <configuration name="ResponseMapperTest.should_map_multiple_from_left" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MateMapperTest - 2019.05.09 at 09h 40m 25s.xml">
-      <configuration name="MateMapperTest" configurationId="JUnit" />
+    <history-entry file="ResponseMapperTest_should_map_multiple_by_left - 2019.05.14 at 00h 57m 40s.xml">
+      <configuration name="ResponseMapperTest.should_map_multiple_by_left" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MateMapperTest_should_map_from_person_to_mate - 2019.05.09 at 09h 43m 34s.xml">
-      <configuration name="MateMapperTest.should_map_from_person_to_mate" configurationId="JUnit" />
+    <history-entry file="ResponseMapperTest_should_map_multiple_by_left - 2019.05.14 at 01h 01m 24s.xml">
+      <configuration name="ResponseMapperTest.should_map_multiple_by_left" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MateMapperTest_should_map_from_person_to_mate - 2019.05.09 at 09h 44m 08s.xml">
-      <configuration name="MateMapperTest.should_map_from_person_to_mate" configurationId="JUnit" />
+    <history-entry file="ResponseMapperTest_should_map_multiple_by_left - 2019.05.14 at 01h 01m 33s.xml">
+      <configuration name="ResponseMapperTest.should_map_multiple_by_left" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MateMapperTest_should_map_from_person_to_mate - 2019.05.09 at 15h 36m 56s.xml">
-      <configuration name="MateMapperTest.should_map_from_person_to_mate" configurationId="JUnit" />
+    <history-entry file="ResponseMapperTest_should_map_multiple_by_left - 2019.05.14 at 01h 04m 15s.xml">
+      <configuration name="ResponseMapperTest.should_map_multiple_by_left" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MateMapperTest_should_map_from_person_to_mate - 2019.05.09 at 15h 37m 12s.xml">
-      <configuration name="MateMapperTest.should_map_from_person_to_mate" configurationId="JUnit" />
+    <history-entry file="ResponseMapperTest_should_map_multiple_by_right - 2019.05.14 at 01h 04m 58s.xml">
+      <configuration name="ResponseMapperTest.should_map_multiple_by_right" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101469000" />
+    <option name="totallyTimeSpent" value="111716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21978022" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21978022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -747,7 +761,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42459893" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3946524" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39037433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -784,7 +798,8 @@
     <MESSAGE value="more than a mock server" />
     <MESSAGE value="add integration test" />
     <MESSAGE value="JUnit 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="JUnit 5" />
+    <MESSAGE value="multiple map" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiple map" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -831,23 +846,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/repository/ParkingBoyRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://036bde99-24df-43f8-8692-e67b38e90d6f/schema/parkinglot/table/parking_boy">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/service/RetryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -900,13 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
           <caret line="379" column="33" selection-start-line="379" selection-start-column="33" selection-end-line="379" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1011,20 +1002,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/reports/tests/integrationTest/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/integrationTest/index.html" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.6/2908ec27909c1929a9f2e031e4ae27e54d268860/lombok-1.18.6-sources.jar!/lombok/experimental/Accessors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -1046,16 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/ProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1118,10 +1086,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/generic/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="48" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ma.glasnost.orika/orika-core/1.5.1/74029fd39a2355b71cac833f396b1c2b8a1db0d6/orika-core-1.5.1-sources.jar!/ma/glasnost/orika/impl/MapperFacadeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="593" column="7" lean-forward="true" selection-start-line="593" selection-start-column="7" selection-end-line="593" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/APerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1147,71 +1153,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/generic/PersonDto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/MateMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/service/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="48" selection-end-column="36" />
+        <state relative-caret-position="306">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ma.glasnost.orika/orika-core/1.5.1/74029fd39a2355b71cac833f396b1c2b8a1db0d6/orika-core-1.5.1-sources.jar!/ma/glasnost/orika/MapperFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="914" column="13" selection-start-line="914" selection-start-column="13" selection-end-line="914" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/parking/mock/server/model/generic/ResponseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/APerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/generic/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/BaseMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/generic/PersonDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/Mate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1220,20 +1202,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/parking/mock/server/model/group/MateMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="26">
+          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/model/group/MateMapper.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ma.glasnost.orika/orika-core/1.5.1/74029fd39a2355b71cac833f396b1c2b8a1db0d6/orika-core-1.5.1-sources.jar!/ma/glasnost/orika/MapperFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="239">
+          <caret line="914" column="13" selection-start-line="914" selection-start-column="13" selection-end-line="914" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parking/mock/server/mapper/ResponseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/parking/mock/server/model/generic/ResponseMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="192" column="37" lean-forward="true" selection-start-line="192" selection-start-column="37" selection-end-line="192" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2040#2048#0" expanded="true" />
+            <element signature="e#3062#3070#0" expanded="true" />
           </folding>
         </state>
       </provider>
