@@ -94,7 +94,24 @@ public class ResponseMapperTest {
         Type<Response<Person>> fromType = new TypeBuilder<Response<Person>>() {}.build();
         Type<Response<PersonDto>> toType = new TypeBuilder<Response<PersonDto>>() {}.build();
 
+        // with extracted ResponseMapper
         Response<PersonDto> responseDto = new ResponseMapper().map(response, fromType, toType);
+
+
+        assertTrue(responseDto.getData() instanceof PersonDto);
+        assertEquals("test generic" , responseDto.getData().getName());
+    }
+
+    @Test
+    public void should_map_generic_with_source_object_and_destination_object() {
+        Response<Person> response = new Response<Person>();
+        Person person = new Person();
+        person.setName("test generic");
+        response.setData(person);
+
+
+        Response<PersonDto> personDtoResponse = new Response<>();
+        Response<PersonDto> responseDto = new ResponseMapper().map(response, personDtoResponse);
 
 
         assertTrue(responseDto.getData() instanceof PersonDto);
