@@ -42,6 +42,7 @@ bootJar {
     manifest {
         attributes 'Start-Class': 'parking.mock.server.App'
     }
+    launchScript()
 }
 
 repositories {
@@ -96,10 +97,6 @@ dependencyManagement {
     imports {
         mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
     }
-}
-
-springBoot {
-    executable = true
 }
 
 contracts {
