@@ -10,6 +10,8 @@ github:
   host: https://api.github.com
 google:
   host: https://api.github.com
+env:
+  profile: "${SPRINGPROFILE}"
 #spring:
 #  datasource:
 #    url: jdbc:mysql://localhost:3306/parkinglot

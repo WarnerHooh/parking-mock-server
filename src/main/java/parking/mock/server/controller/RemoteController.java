@@ -1,10 +1,9 @@
 package parking.mock.server.controller;
 
-import feign.Response;
-import feign.Util;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import parking.mock.server.config.EnvConf;
 import parking.mock.server.remote.GithubClient;
 import parking.mock.server.remote.GoogleClient;
 import parking.mock.server.response.Repo;
@@ -18,9 +17,12 @@ public class RemoteController {
     private GithubClient githubClient;
     private GoogleClient googleClient;
 
-    public RemoteController(GithubClient githubClient, GoogleClient googleClient) {
+    private EnvConf envConf;
+
+    public RemoteController(GithubClient githubClient, GoogleClient googleClient, EnvConf envConf) {
         this.githubClient = githubClient;
         this.googleClient = googleClient;
+        this.envConf = envConf;
     }
 
     @GetMapping("/hello")
@@ -41,5 +43,10 @@ public class RemoteController {
             e.printStackTrace();
         }
         return ResponseEntity.ok("hello");
+    }
+
+    @GetMapping("/env")
+    public ResponseEntity printProfile() {
+        return ResponseEntity.ok(envConf.getProfile());
     }
 }
