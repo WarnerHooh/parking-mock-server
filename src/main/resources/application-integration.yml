@@ -16,6 +16,7 @@ spring:
     driverClassName: org.h2.Driver
     username: sa
     password:
+    data: classpath:data/import.sql
   jpa:
     hibernate:
       ddl-auto: create

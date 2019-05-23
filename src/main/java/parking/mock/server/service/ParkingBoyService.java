@@ -4,6 +4,7 @@ import org.springframework.stereotype.Service;
 import parking.mock.server.model.ParkingBoy;
 import parking.mock.server.repository.ParkingBoyRepository;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -23,5 +24,9 @@ public class ParkingBoyService {
 
     public Optional<ParkingBoy> getParkingBoy(final Long id) {
         return parkingBoyRepository.findById(id);
+    }
+
+    public List<ParkingBoy> getAll() {
+        return parkingBoyRepository.findAll();
     }
 }

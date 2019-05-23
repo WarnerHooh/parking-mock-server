@@ -98,6 +98,10 @@ dependencyManagement {
     }
 }
 
+springBoot {
+    executable = true
+}
+
 contracts {
     contractsDslDir = project.file("api")
 }

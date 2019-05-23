@@ -4,6 +4,6 @@ import org.springframework.test.context.ActiveProfiles;
 
 
 @IntegrationTest
-@ActiveProfiles(profiles = "integration")
+//@ActiveProfiles(profiles = "integration")
 abstract class IntegrationTestBase {
 }

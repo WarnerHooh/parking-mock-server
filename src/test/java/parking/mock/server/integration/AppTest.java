@@ -8,6 +8,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import parking.mock.server.model.ParkingBoy;
 import parking.mock.server.service.ParkingBoyService;
 
+import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -28,5 +29,12 @@ class AppTest extends IntegrationTestBase {
 
         assertNotNull(optional.get());
         assertEquals("Warner", optional.get().getName());
+    }
+
+    @Test
+    void should_seed_data() {
+        List<ParkingBoy> list = parkingBoyService.getAll();
+
+        assertNotNull(list);
     }
 }
