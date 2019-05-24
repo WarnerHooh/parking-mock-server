@@ -43,7 +43,7 @@ bootJar {
         attributes 'Start-Class': 'parking.mock.server.App'
     }
     launchScript{
-        properties 'inlinedConfScript': 'app.conf'
+        properties 'JAVA_OPTS': '-Dspring.profiles.active=integration'
     }
 }
 

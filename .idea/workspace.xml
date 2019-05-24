@@ -155,20 +155,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="112">
+              <caret line="45" column="69" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="51" lean-forward="true" selection-start-column="35" selection-end-column="51" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -300,8 +300,8 @@
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/config/EnvConf.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/mock/server/controller/RemoteController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app.conf" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -431,7 +431,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558668099341" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558669919714" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -506,6 +506,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="parking-mock-server [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="AppTest.should_save_parking_boy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dmall.com.parking-mock-server.test" />
       <extension name="coverage">
@@ -538,22 +557,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseMapperTest.should_map_multiple_by_right" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dmall.com.parking-mock-server.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parking.mock.server.model.generic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="parking.mock.server.model.generic" />
-      <option name="MAIN_CLASS_NAME" value="parking.mock.server.model.generic.ResponseMapperTest" />
-      <option name="METHOD_NAME" value="should_map_multiple_by_right" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ResponseMapperTest.should_same_with_previous_one2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dmall.com.parking-mock-server.test" />
       <extension name="coverage">
@@ -579,11 +582,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.parking-mock-server [clean]" />
         <item itemvalue="Gradle.parking-mock-server [bootJar]" />
         <item itemvalue="JUnit.AppTest.should_seed_data" />
         <item itemvalue="JUnit.AppTest.should_save_parking_boy" />
         <item itemvalue="JUnit.ResponseMapperTest.should_same_with_previous_one2" />
-        <item itemvalue="JUnit.ResponseMapperTest.should_map_multiple_by_right" />
       </list>
     </recent_temporary>
   </component>
@@ -615,7 +618,7 @@
       <workItem from="1557241782569" duration="14922000" />
       <workItem from="1557708726738" duration="14394000" />
       <workItem from="1558359685506" duration="3880000" />
-      <workItem from="1558594946563" duration="7242000" />
+      <workItem from="1558594946563" duration="8282000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1555911889853</created>
@@ -743,7 +746,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558667635895</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="embed env">
+      <created>1558668125451</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1558668125451</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -779,13 +789,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127792000" />
+    <option name="totallyTimeSpent" value="128832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2716728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2716728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -795,7 +805,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43208557" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43208557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39037433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1283,17 +1293,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.conf">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" lean-forward="true" selection-start-column="35" selection-end-column="51" />
+        <state relative-caret-position="112">
+          <caret line="45" column="69" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="69" />
         </state>
       </provider>
     </entry>
