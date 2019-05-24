@@ -25,6 +25,15 @@ group = 'dmall.com'
 version = "0.0.1-SNAPSHOT.$System.env.BUILD_NUMBER"
 sourceCompatibility = 1.8
 
+
+task copyConf(type: Copy) {
+    from './application.conf'
+    into "$buildDir/libs"
+    rename { String fileName ->
+        fileName.replace("application", "${rootProject.name}-$version")
+    }
+}
+
 jar {
     baseName = 'parking'
     enabled=true
@@ -42,9 +51,7 @@ bootJar {
     manifest {
         attributes 'Start-Class': 'parking.mock.server.App'
     }
-    launchScript{
-        properties 'javaOpts': '-Dspring.profiles.active=integration'
-    }
+    launchScript()
 }
 
 repositories {
